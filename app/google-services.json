@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "919957536608",
+    "firebase_url": "https://welcome-1338d.firebaseio.com",
+    "project_id": "welcome-1338d",
+    "storage_bucket": "welcome-1338d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919957536608:android:a322a5b5ee0ddde4",
+        "android_client_info": {
+          "package_name": "co.isuru.firebasebook.welcome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919957536608-oi35tqh667f1gllc61qj4bgu5qopfrie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq_pc4JtCHAgsS39MCTnY0HuDg8ltzR_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
