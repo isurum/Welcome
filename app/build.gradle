@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.1"
     defaultConfig {
         applicationId "co.isuru.firebasebook.welcome"
-        minSdkVersion 10
+        minSdkVersion 11
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -28,6 +28,7 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
     compile 'com.android.support:design:24.1.1'
     compile 'com.google.firebase:firebase-core:9.4.0'
+    compile 'com.google.firebase:firebase-messaging:9.4.0'
     testCompile 'junit:junit:4.12'
 }
 
