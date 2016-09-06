@@ -73,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent startNotificationsActivityIntent = new Intent(MainActivity.this, MessageActivity.class);
                 startActivity(startNotificationsActivityIntent);
                 return true;
+            case R.id.sign_up:
+                Intent signupIntent = new Intent(MainActivity.this, SignupActivty.class);
+                startActivity(signupIntent);
             default:
                 return super.onOptionsItemSelected(item);
         }

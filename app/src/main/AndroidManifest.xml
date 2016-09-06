@@ -32,7 +32,30 @@
 
         <activity
             android:name=".MessageActivity"
-            android:label="@string/title_activity_message">
+            android:label="@string/title_activity_message" />
+        <activity
+            android:name=".SignupActivty"
+            android:label="@string/title_activity_signup_activty"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="co.isuru.firebasebook.welcome.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="@string/title_activity_reset_password"
+            android:parentActivityName=".SignupActivty">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="co.isuru.firebasebook.welcome.SignupActivty" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="co.isuru.firebasebook.welcome.MainActivity" />
         </activity>
     </application>
 

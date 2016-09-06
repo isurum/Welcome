@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Welcome</string>
     <string name="action_settings">Notifications Activity</string>
-    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_message">Message Activity</string>
 
     <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
         news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
@@ -11,4 +11,26 @@
 
     <string name="msg_subscribed">Subscribed to news topic</string>
     <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="title_activity_signup_activty">Sign Up</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btn_register">Register</string>
+    <string name="sign_up_menu">Sign Up</string>
+    <string name="btn_forgot_password">Forgot password</string>
+    <string name="btn_link_to_login">Already registered. Sign in!</string>
+    <string name="logo_description">Logo</string>
+    <string name="title_activity_reset_password">Reset Password</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="btn_link_to_register">Not a member? Register now!</string>
+    <string name="btn_login">LOGIN</string>
+
+    <string name="auth_failed">Authentication failed, check email and password!</string>
+
+    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">Enter the email to reset the password.</string>
+    <string name="btn_reset_password">Reset Password</string>
+
+
 </resources>
