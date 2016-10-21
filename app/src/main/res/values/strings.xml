@@ -32,5 +32,12 @@
     <string name="forgot_password_msg">Enter the email to reset the password.</string>
     <string name="btn_reset_password">Reset Password</string>
 
+    <string name="banner_ad_unit_id">ca-app-pub-2127332451642459/2993350438</string>
+
+    <string name="invite_friends_string">Invite Friends</string>
+    <string name="invitation_title">Invitation</string>
+    <string name="invitation_message">This app is awesome. Give it a try!</string>
+    <string name="invitation_deep_link">https://portfolio-9a283.firebaseapp.com/</string>
+
 
 </resources>
